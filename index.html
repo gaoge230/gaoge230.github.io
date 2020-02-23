@@ -66,10 +66,10 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-Atlas开发板" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-Atlas开发板笔记" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/02/23/Atlas%E5%BC%80%E5%8F%91%E6%9D%BF/" class="article-date">
-  <time datetime="2020-02-23T03:36:48.000Z" itemprop="datePublished">2020-02-23</time>
+    <a href="/2020/02/23/Atlas%E5%BC%80%E5%8F%91%E6%9D%BF%E7%AC%94%E8%AE%B0/" class="article-date">
+  <time datetime="2020-02-23T06:36:07.000Z" itemprop="datePublished">2020-02-23</time>
 </a>
     
   </div>
@@ -80,7 +80,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/02/23/Atlas%E5%BC%80%E5%8F%91%E6%9D%BF/">Atlas开发板</a>
+      <a class="article-title" href="/2020/02/23/Atlas%E5%BC%80%E5%8F%91%E6%9D%BF%E7%AC%94%E8%AE%B0/">Atlas开发板笔记</a>
     </h1>
   
 
@@ -91,7 +91,7 @@
         <h1 id="一、华为Atlas开发板（昇腾AI处理器）"><a href="#一、华为Atlas开发板（昇腾AI处理器）" class="headerlink" title="一、华为Atlas开发板（昇腾AI处理器）"></a>一、华为Atlas开发板（昇腾AI处理器）</h1><h3 id="1-1-介绍"><a href="#1-1-介绍" class="headerlink" title="1.1 介绍"></a>1.1 介绍</h3><p>华为Atlas200DK开发者套件（开发板）装有华为昇腾310AI处理器。主要功能是将昇腾310处理器的核心功能通过该开发板的外围接口开放出来，方便用户快速简捷的接入并使用昇腾310处理器强大的处理能力。</p>
 <p>昇腾310AI芯片：是业界面向边缘计算场景最强算力的AI SoC（系统级芯片），可以实现高达16Tops的现场算力，支持同时识别包括车、人、障碍物、交通标志在内的200个不同的物体；一秒钟内可处理上千张图片。</p>
 <p>其实就是一块AI的开发板（具有强大的计算能力）能够接收用户导入的已训练好的ML/DL模型，然后利用这块AI处理器强大计算能力快速让模型运转起来进行应用。所以用户需要完成的工作就是将训练好的模型导入Atlas开发板，令其运转起来。这里的关键就是如何将模型很好的导入到Atlas中，即要在满足Atlas框架要求下修改已训练的模型。</p>
-<p><img src="C:%5CUsers%5Chighsong%5CDesktop%5C1.png" alt=""></p>
+<p><img src="1.png" alt=""></p>
 <p>好直接附上官网，官网有Atlas开发板的使用介绍及入门，网址：<a href="https://ascend.huawei.com" target="_blank" rel="noopener">华为昇腾</a><br>使用过程中有什么问题可以官网论坛寻找或者提问。</p>
 <h3 id="1-2-注意事项使用"><a href="#1-2-注意事项使用" class="headerlink" title="1.2 注意事项使用"></a>1.2 注意事项使用</h3><p>需要准备的东西：</p>
 <ul>
@@ -124,7 +124,7 @@
 <li>开发板处数据线连接方式的静态地址默认为192.168.1.2，网线方式默认为192.168.0.2</li>
 <li>ssh <a href="mailto:HwHiAiUser@192.168.1.2">HwHiAiUser@192.168.1.2</a>    默认密码：Mind@123</li>
 </ul>
-<h3 id="1-3-部署应用实践"><a href="#1-3-部署应用实践" class="headerlink" title="1.3 部署应用实践"></a>1.3 部署应用实践</h3><h4 id="人脸检测项目"><a href="#人脸检测项目" class="headerlink" title="人脸检测项目"></a>人脸检测项目</h4><p>照着官网的教程直接来就可以了。架构如下：<br><img src="WEBRESOURCEda472e899bbe13444901a505c43ff249" alt="下载.jpg"></p>
+<h3 id="1-3-部署应用实践"><a href="#1-3-部署应用实践" class="headerlink" title="1.3 部署应用实践"></a>1.3 部署应用实践</h3><h4 id="人脸检测项目"><a href="#人脸检测项目" class="headerlink" title="人脸检测项目"></a>人脸检测项目</h4><p>照着官网的教程直接来就可以了。架构如下：<br><img src="C:/Users/highsong/Desktop/WEBRESOURCEda472e899bbe13444901a505c43ff249" alt="下载.jpg"></p>
 <ul>
 <li>Atlas 200 DK开发者板使用的IP地址为192.168.1.2（USB方式连接）。</li>
 <li>Presenter Server与Atlas 200 DK通信的IP地址为UI Host服务器中与Atlas 200 DK在同一网段的IP地址，例如：192.168.1.223。</li>
@@ -143,7 +143,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/02/23/Atlas%E5%BC%80%E5%8F%91%E6%9D%BF/" data-id="ck6yhdyga0000gov80wjpdb41" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/02/23/Atlas%E5%BC%80%E5%8F%91%E6%9D%BF%E7%AC%94%E8%AE%B0/" data-id="ck6yphly20000b4v8ats757li" class="article-share-link">Share</a>
       
       
     </footer>
@@ -233,7 +233,7 @@
       <ul>
         
           <li>
-            <a href="/2020/02/23/Atlas%E5%BC%80%E5%8F%91%E6%9D%BF/">Atlas开发板</a>
+            <a href="/2020/02/23/Atlas%E5%BC%80%E5%8F%91%E6%9D%BF%E7%AC%94%E8%AE%B0/">Atlas开发板笔记</a>
           </li>
         
           <li>
