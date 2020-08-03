@@ -8,7 +8,11 @@
       <content type="html"><![CDATA[<h1 id="一、华为Atlas开发板（昇腾AI处理器）"><a href="#一、华为Atlas开发板（昇腾AI处理器）" class="headerlink" title="一、华为Atlas开发板（昇腾AI处理器）"></a>一、华为Atlas开发板（昇腾AI处理器）</h1><h3 id="1-1-介绍"><a href="#1-1-介绍" class="headerlink" title="1.1 介绍"></a>1.1 介绍</h3><p>华为Atlas200DK开发者套件（开发板）装有华为昇腾310AI处理器。主要功能是将昇腾310处理器的核心功能通过该开发板的外围接口开放出来，方便用户快速简捷的接入并使用昇腾310处理器强大的处理能力。</p>
 <p>昇腾310AI芯片：是业界面向边缘计算场景最强算力的AI SoC（系统级芯片），可以实现高达16Tops的现场算力，支持同时识别包括车、人、障碍物、交通标志在内的200个不同的物体；一秒钟内可处理上千张图片。</p>
 <p>其实就是一块AI的开发板（具有强大的计算能力）能够接收用户导入的已训练好的ML/DL模型，然后利用这块AI处理器强大计算能力快速让模型运转起来进行应用。所以用户需要完成的工作就是将训练好的模型导入Atlas开发板，令其运转起来。这里的关键就是如何将模型很好的导入到Atlas中，即要在满足Atlas框架要求下修改已训练的模型。</p>
-<p><img src="1.png" alt=""></p>
+<figure class="image-box">
+                <img src="1.png" alt="" title="" class="">
+                <p></p>
+            </figure>
+
 <p>好直接附上官网，官网有Atlas开发板的使用介绍及入门，网址：<a href="https://ascend.huawei.com" target="_blank" rel="noopener">华为昇腾</a><br>使用过程中有什么问题可以官网论坛寻找或者提问。</p>
 <h3 id="1-2-注意事项使用"><a href="#1-2-注意事项使用" class="headerlink" title="1.2 注意事项使用"></a>1.2 注意事项使用</h3><p>需要准备的东西：</p>
 <ul>
