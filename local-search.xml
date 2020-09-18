@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>SimCLR翻译</title>
+    <link href="/2020/09/18/SimCLR%E7%BF%BB%E8%AF%91/"/>
+    <url>/2020/09/18/SimCLR%E7%BF%BB%E8%AF%91/</url>
+    
+    <content type="html"><![CDATA[<h1 id="SimCLR翻译"><a href="#SimCLR翻译" class="headerlink" title="SimCLR翻译"></a>SimCLR翻译</h1><p>论文由Hinton组发表，主要应用对比学习、大的batchsize、数据增强技巧来提高自监督表征学习的性能。</p><br><div class="row">    <embed src="/SimCLR.pdf" width="100%" height="550" type="application/pdf"></div> <br>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>自监督</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>moco v2 翻译</title>
     <link href="/2020/08/07/moco-v2-%E7%BF%BB%E8%AF%91/"/>
     <url>/2020/08/07/moco-v2-%E7%BF%BB%E8%AF%91/</url>
@@ -27,7 +46,7 @@
     <link href="/2020/08/06/moco%E7%BF%BB%E8%AF%91/"/>
     <url>/2020/08/06/moco%E7%BF%BB%E8%AF%91/</url>
     
-    <content type="html"><![CDATA[<center>**MoCo中英文对照翻译**</center><br><div class="row">    <embed src="/MoCo.pdf" width="100%" height="550" type="application/pdf"></div> <br>]]></content>
+    <content type="html"><![CDATA[<h1 id="MoCo中英文对照翻译"><a href="#MoCo中英文对照翻译" class="headerlink" title="MoCo中英文对照翻译"></a>MoCo中英文对照翻译</h1><p>MoCo由何凯明组发表，主要对对比学习，应用队列等方式维持一个memory bank来提供大量的负样本，另外使用动量的方式平稳的保持编码器的参数（性能）！</p><br><div class="row">    <embed src="/MoCo.pdf" width="100%" height="550" type="application/pdf"></div> <br>]]></content>
     
     
     
